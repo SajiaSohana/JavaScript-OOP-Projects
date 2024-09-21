@@ -4,3 +4,4 @@
 <br>
 <hr>
 <p>Random Choice Picker project using Object-Oriented Programming (OOP) in JavaScript! This project encapsulates the functionality into a class, making the code more modular, reusable, and easier to maintain.I Practiced key OOP concepts like class methods, properties, and event handling within an object structure. 💻</p>
+[LIVE:](https://random-choice-picker-oop-javascript.netlify.app/)
