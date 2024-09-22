@@ -27,6 +27,7 @@ This Task Manager application showcases the application of Object-Oriented Progr
 
 This project highlights a solid understanding of OOP principles and their practical application in JavaScript, resulting in a modern, responsive and functional task management tool.
 <br>
+[Live Demo:](https://crud-task-manager-js-oop-localstorage.netlify.app/)
 
 
 #JavaScript #ObjectOrientedProgramming #TaskManager #LocalStorage #CRUD #WebDevelopment #Bootstrap #ModernUI #Coding #Learning #Projects</p>
