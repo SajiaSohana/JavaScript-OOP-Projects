@@ -8,21 +8,21 @@
 This Task Manager application showcases the application of Object-Oriented Programming (OOP) principles through a structured design that emphasizes reusability and encapsulation.
 <br>
 
-<h4>Key OOP Concepts Used:</h4>
+<h4><b>Key OOP Concepts Used:</b></h4>
 
-Classes and Instances: The Task class represents individual tasks, encapsulating properties like id, name, and type. The TaskManager class oversees a collection of tasks and handles user interactions.
+<b>Classes and Instances:</b> The Task class represents individual tasks, encapsulating properties like id, name, and type. The TaskManager class oversees a collection of tasks and handles user interactions.
 <br>
 
-Encapsulation: Private fields (e.g., #tasks and #storageKey) are employed to hide implementation details, ensuring that the task management logic remains protected from external access.
+<b>Encapsulation:</b> Private fields (e.g., #tasks and #storageKey) are employed to hide implementation details, ensuring that the task management logic remains protected from external access.
 <br>
 
-Static Properties: The static property storageKey allows easy access to the local storage key for task persistence without needing to instantiate the class.
+<b>Static Properties:</b> The static property storageKey allows easy access to the local storage key for task persistence without needing to instantiate the class.
 <br>
 
-CRUD Functionality: The application supports Create, Read, Update, and Delete operations for tasks. Users can add new tasks, edit existing ones via a modal interface, and delete tasks as needed.
+<b>CRUD Functionality:</b> The application supports Create, Read, Update, and Delete operations for tasks. Users can add new tasks, edit existing ones via a modal interface, and delete tasks as needed.
 <br>
 
-Local Storage: The use of the browser's local storage ensures that tasks persist even after a page refresh, allowing users to maintain their task list over time.
+<b>Local Storage:</b> The use of the browser's local storage ensures that tasks persist even after a page refresh, allowing users to maintain their task list over time.
 <br>
 
 This project highlights a solid understanding of OOP principles and their practical application in JavaScript, resulting in a modern and functional task management tool.
