@@ -1,0 +1,43 @@
+body {
+    background-color: #111;
+}
+
+.container {
+    background-color: #181818;
+    padding: 2em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #3dcf91;
+}
+
+.form-control {
+    background-color: #292929;
+    border: 1px solid #444;
+    color: #ffffff;
+}
+
+.list-group-item {
+    background-color: #202020;
+    border: 1px solid #444;
+    color: #ffffff;
+}
+
+.modal-content {
+    background-color: #181818;
+}
+
+.btn-primary {
+    background-color: #3b5998;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #2e477a;
+}
+
+.btn-success, .btn-danger {
+    border: none;
+}

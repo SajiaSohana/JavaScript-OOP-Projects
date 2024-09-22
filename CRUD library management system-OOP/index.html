@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        ::placeholder {
+            color: #bbb;
+        }
+    </style>
+</head>
+<body class="bg-dark text-light">
+    <div class="container mt-5">
+        <h1 class="text-center">Library Management System</h1>
+        
+        <label for="titleInput" class="form-label">Book Title</label>
+        <input type="text" id="titleInput" class="form-control bg-dark text-light border-secondary" placeholder="Enter the title">
+
+        <label for="authorInput" class="form-label mt-3">Author Name</label>
+        <input type="text" id="authorInput" class="form-control bg-dark text-light border-secondary" placeholder="Enter the author's name">
+
+        <select id="itemType" class="form-control mt-2 bg-dark text-light border-secondary">
+            <option value="Book">Book</option>
+            <option value="Magazine">Magazine</option>
+            <option value="Newspaper">Newspaper</option>
+        </select>
+
+        <button id="addItemButton" class="btn btn-primary mt-3"><i class="fas fa-plus"></i> Add Item</button>
+        
+        <ul id="itemList" class="list-group mt-4"></ul>
+    </div>
+
+    <div class="modal" id="editItemModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-dark text-light border-secondary">
+                <div class="modal-header">
+                    <h5 class="modal-title">Edit Item</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <label for="editTitleInput" class="form-label">Edit Title</label>
+                    <input type="text" id="editTitleInput" class="form-control bg-dark text-light border-secondary" placeholder="Edit title" />
+                    
+                    <label for="editAuthorInput" class="form-label mt-3">Edit Author Name</label>
+                    <input type="text" id="editAuthorInput" class="form-control bg-dark text-light border-secondary" placeholder="Edit author's name" />
+                    
+                    <select id="editItemType" class="form-control mt-2 bg-dark text-light border-secondary">
+                        <option value="Book">Book</option>
+                        <option value="Magazine">Magazine</option>
+                        <option value="Newspaper">Newspaper</option>
+                    </select>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="saveChangesButton" class="btn btn-success"><i class="fas fa-save"></i> Save Changes</button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="fas fa-times"></i> Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
