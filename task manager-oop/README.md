@@ -1,0 +1,25 @@
+<h1>CRUD Task Manager using OOP JavaScript </h1>
+<br>
+<hr>
+<img src="./task manager oop.png" alt="">
+<br>
+<hr>
+<p>Project Introduction
+This Task Manager application showcases the application of Object-Oriented Programming (OOP) principles through a structured design that emphasizes reusability and encapsulation.
+
+Key OOP Concepts Used:
+
+Classes and Instances: The Task class represents individual tasks, encapsulating properties like id, name, and type. The TaskManager class oversees a collection of tasks and handles user interactions.
+
+Encapsulation: Private fields (e.g., #tasks and #storageKey) are employed to hide implementation details, ensuring that the task management logic remains protected from external access.
+
+Static Properties: The static property storageKey allows easy access to the local storage key for task persistence without needing to instantiate the class.
+
+CRUD Functionality: The application supports Create, Read, Update, and Delete operations for tasks. Users can add new tasks, edit existing ones via a modal interface, and delete tasks as needed.
+
+Local Storage: The use of the browser's local storage ensures that tasks persist even after a page refresh, allowing users to maintain their task list over time.
+
+This project highlights a solid understanding of OOP principles and their practical application in JavaScript, resulting in a modern and functional task management tool.
+
+Hashtags
+#JavaScript #ObjectOrientedProgramming #TaskManager #LocalStorage #CRUD #WebDevelopment #Bootstrap #ModernUI #Coding #Learning #Projects</p>

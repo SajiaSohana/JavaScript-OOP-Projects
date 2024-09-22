@@ -1,0 +1,47 @@
+body {
+    background-color: #111;
+}
+
+.container {
+    background-color: #181818;
+    padding: 2em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #3dcf91;
+}
+
+.form-control {
+    background-color: #292929;
+    border: 1px solid #444;
+    color: #ffffff; /* Ensure text is visible */
+}
+
+.list-group-item {
+    background-color: #202020;
+    border: 1px solid #444;
+    color: #ffffff; /* Set text color for task names */
+}
+
+.list-group-item .btn {
+    margin-left: 5px;
+}
+
+.modal-content {
+    background-color: #181818;
+}
+
+.btn-primary {
+    background-color: #3b5998; /* Facebook blue */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #2e477a; /* Darker Facebook blue on hover */
+}
+
+.btn-success, .btn-danger {
+    border: none;
+}
