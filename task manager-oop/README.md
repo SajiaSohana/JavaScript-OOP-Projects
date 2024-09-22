@@ -8,7 +8,7 @@
 This Task Manager application showcases the application of Object-Oriented Programming (OOP) principles through a structured design that emphasizes reusability and encapsulation.
 <br>
 
-Key OOP Concepts Used:
+<h4>Key OOP Concepts Used:</h4>
 
 Classes and Instances: The Task class represents individual tasks, encapsulating properties like id, name, and type. The TaskManager class oversees a collection of tasks and handles user interactions.
 <br>
