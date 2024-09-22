@@ -25,7 +25,7 @@ This Task Manager application showcases the application of Object-Oriented Progr
 <b>Local Storage:</b> The use of the browser's local storage ensures that tasks persist even after a page refresh, allowing users to maintain their task list over time.
 <br>
 
-This project highlights a solid understanding of OOP principles and their practical application in JavaScript, resulting in a modern and functional task management tool.
+This project highlights a solid understanding of OOP principles and their practical application in JavaScript, resulting in a modern, responsive and functional task management tool.
 <br>
 
 
