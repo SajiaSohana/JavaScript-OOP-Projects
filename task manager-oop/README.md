@@ -4,7 +4,7 @@
 <img src="./task manager oop.png" alt="">
 <br>
 <hr>
-<p>Project Introduction
+<p><h4>Project Introduction</h4>
 This Task Manager application showcases the application of Object-Oriented Programming (OOP) principles through a structured design that emphasizes reusability and encapsulation.
 
 Key OOP Concepts Used:
