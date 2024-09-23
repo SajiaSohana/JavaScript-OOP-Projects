@@ -1,0 +1,18 @@
+ <h1>Fitness Tracker Project</h1>
+ <br>
+ <hr>
+ <img src="./fitness.png" alt="">
+ <p>The Fitness Tracker is a web application that effectively employs Object-Oriented Programming (OOP) principles, particularly inheritance and polymorphism, to create a structured and maintainable codebase. In this project, we define a base class called Activity, which serves as the foundation for various fitness activities, such as Running, Swimming, Weightlifting, Cycling, Yoga, and Dance. Each of these activity types is represented as a subclass that inherits from the Activity class.</p>
+ <br>
+ <h2>Inheritance and Polymorphism</h2>
+ <p>Using inheritance, each subclass can extend the properties and methods of the Activity class, enabling a clean and efficient design. For instance, the getDetails method is overridden in each subclass to provide unique emoji representations for different activities while still adhering to the common structure established in the parent class. This demonstrates polymorphism, allowing us to treat all activity types as instances of the base Activity class, thereby simplifying interactions within the code.</p>
+ <br>
+ <h2>Impact on Front-End and Back-End</h2>
+ <p>The implementation of these OOP principles significantly enhances both the front-end and back-end functionalities of the application. On the front-end, the modular design allows for easier updates and extensions—new activities can be added with minimal changes to existing code. Each activity's unique features are encapsulated within its respective class, promoting better organization.</p>
+ <br>
+ <p>On the back-end, the use of OOP enables the application to manage user data more efficiently through local storage. Each activity's details are easily serialized and deserialized, maintaining their integrity across sessions. This results in a seamless user experience, where activity data persists even after a page refresh, showcasing the effective integration of OOP concepts with state management.</p>
+ <br>
+ <p>In summary, the Fitness Tracker project exemplifies how OOP principles like inheritance and polymorphism can lead to a more organized, scalable, and user-friendly application, bridging the gap between the front-end interface and back-end data management.</p>
+ #JavaScript #WebDevelopment #ObjectOrientedProgramming #FitnessApp #LocalStorage #Coding #Programming #TechForGood #OpenSource #FitnessTracker
+
+ [Live Demo:](https://fitness-tracker-oop-js-localstorage.netlify.app/)

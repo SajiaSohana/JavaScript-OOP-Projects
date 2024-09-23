@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Tracker</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+  <h1 class="text-center mb-4">Fitness Tracker</h1>
+  
+  <div class="mb-3">
+    <label for="activityType" class="form-label">Select Activity</label>
+    <select class="form-control" id="activityType">
+      <option value="Running">Running</option>
+      <option value="Swimming">Swimming</option>
+      <option value="Weightlifting">Weightlifting</option>
+      <option value="Cycling">Cycling</option>
+      <option value="Yoga">Yoga</option>
+      <option value="Dance">Dance</option>
+    </select>
+  </div>
+  
+  <div class="mb-3">
+    <label for="activityDetails" class="form-label">Activity Details</label>
+    <input type="text" class="form-control" id="activityDetails" placeholder="e.g., 5 km run, 30 mins swim">
+  </div>
+  
+  <button id="addActivity" class="btn btn-primary w-100 mb-3">Add Activity</button>
+  
+  <h2 class="text-center">Activities</h2>
+  <div id="activityList" class="row mt-3"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

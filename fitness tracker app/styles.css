@@ -1,0 +1,92 @@
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+  
+.container {
+    margin-top: 50px;
+}
+  
+.form-control, .btn {
+    background-color: #1e1e1e;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+  
+.form-control:focus, .btn:hover {
+    background-color: #333;
+}
+  
+#activityType, #activityDetails {
+    color: #fff; /* Text color fix */
+}
+  
+/* Activity card styles */
+.card {
+    background-color: #1e1e1e;
+    border: none;
+    transition: transform 0.3s ease;
+    width: calc(33.333% - 20px); /* Adjusted for three cards in a row */
+    margin: 10px; /* Space around each card */
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center content in the card */
+}
+  
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Button styles */
+.btn-edit, .btn-delete {
+    border: none;
+    background: transparent;
+    color: #fff; /* Changed to white */
+    margin: 5px;
+    font-size: 1.2rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) { /* For tablets */
+    .card {
+        width: calc(50% - 20px); /* Two cards in a row */
+        margin: 10px; /* Margin for spacing */
+    }
+}
+
+@media (max-width: 576px) { /* For mobile devices */
+    .card {
+        width: calc(100% - 20px); /* Full width with margins */
+        margin: 10px; /* Adds margin on the sides */
+    }
+}
+
+/* Activity type colors */
+.card.running h5 {
+    color: #398eee
+    
+}
+
+.card.running p {
+    color: #fff; /* Details text color for Running */
+}
+
+.card.swimming h5 {
+    color: #39ff14; /* Neon green */
+}
+.card.weightlifting h5 {
+    color: #ffab61; /* Blush pink */
+}
+.card.cycling h5 {
+    color: #cc88e7; /* Sober purple */
+}
+.card.yoga h5 {
+    color: #eae68a; /* Amber */
+}
+.card.dance h5 {
+    color: #e73c6a; /* Red */
+}
