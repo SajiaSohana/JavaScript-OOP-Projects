@@ -15,9 +15,9 @@
  <h2>CRUD Functionality</h2>
  <p>The application implements full CRUD (Create, Read, Update, Delete) functionality, allowing users to manage their fitness activities seamlessly. Users can:
 
- 1.Create new activities by selecting an activity type and entering details.
- 2.Read their list of activities displayed in a user-friendly card format.
- 3.Update existing activities by editing their details, which is facilitated by removing the old entry and adding the updated one.
+ 1.Create new activities by selecting an activity type and entering details.<br>
+ 2.Read their list of activities displayed in a user-friendly card format.<br>
+ 3.Update existing activities by editing their details, which is facilitated by removing the old entry and adding the updated one.<br>
  4.Delete activities to maintain a clean and relevant list.</p>
  <br>
  <h2>Local Storage</h2>
