@@ -12,6 +12,13 @@
  <br>
  <p>On the back-end, the use of OOP enables the application to manage user data more efficiently through local storage. Each activity's details are easily serialized and deserialized, maintaining their integrity across sessions. This results in a seamless user experience, where activity data persists even after a page refresh, showcasing the effective integration of OOP concepts with state management.</p>
  <br>
+ <h2>CRUD Functionality</h2>
+ <p>The application implements full CRUD (Create, Read, Update, Delete) functionality, allowing users to manage their fitness activities seamlessly. Users can:
+
+ 1.Create new activities by selecting an activity type and entering details.
+ 2.Read their list of activities displayed in a user-friendly card format.
+ 3.Update existing activities by editing their details, which is facilitated by removing the old entry and adding the updated one.
+ 4.Delete activities to maintain a clean and relevant list.</p>
  <p>In summary, the Fitness Tracker project exemplifies how OOP principles like inheritance and polymorphism can lead to a more organized, scalable, and user-friendly application, bridging the gap between the front-end interface and back-end data management.</p>
  #JavaScript #WebDevelopment #ObjectOrientedProgramming #FitnessApp #LocalStorage #Coding #Programming #TechForGood #OpenSource #FitnessTracker
 
