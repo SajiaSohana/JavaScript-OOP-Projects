@@ -4,7 +4,7 @@
 
  <br>
  <hr>
- The Movie Tracker App is a dynamic web application that showcases advanced Object-Oriented Programming (OOP) principles in JavaScript. This project serves as an excellent example of how to build a fully functional, responsive application utilizing CRUD (Create, Read, Update, Delete) operations.
+ The Movie Tracker App is a dynamic web application that showcases advanced Object-Oriented Programming (OOP) principles in JavaScript. This project serves as an excellent example of how to build a fully functional, responsive application utilizing CRUD (Create, Read, Update, Delete) operations using OMDB API.
  <br>
  <hr>
 
