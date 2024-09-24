@@ -1,0 +1,71 @@
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1, h2 {
+    color: #f0f0f0;
+    letter-spacing: 1.5px;
+  }
+  
+  #searchInput {
+    border-radius: 30px;
+  }
+  
+  #searchBtn {
+    border-radius: 30px;
+  }
+  
+  .card {
+    background-color: #1a1a1a;
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    height: 400px; /* Fixed height for uniformity */
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card-body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-title {
+    font-size: 1.1rem;
+    color: #f0f0f0;
+    margin-top: 10px;
+  }
+  
+  .card-text {
+    color: #ccc;
+  }
+  
+  .card-img-top {
+    height: 250px; /* Set a consistent image height */
+    object-fit: cover; /* Ensures the image is cropped to fit */
+  }
+  
+  button {
+    border-radius: 30px;
+    padding: 8px 18px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #f0f0f0;
+    color: #000;
+  }
+  
+  .row.g-4 {
+    row-gap: 1rem; /* Reduce the gap between rows to make cards more compact */
+  }
+  
+  
