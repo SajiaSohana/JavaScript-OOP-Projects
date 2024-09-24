@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyDIsXy63KZorctVDieHqs-ZRcDFtcway-w';
+const API_KEY = ''; //api key 
 const channelList = JSON.parse(localStorage.getItem('favoriteChannels')) || [];
 
 document.addEventListener('DOMContentLoaded', () => {
