@@ -27,4 +27,4 @@
   <br>
   <hr>
   <p>The Movie Tracker App effectively demonstrates the application of Object-Oriented Programming principles and the development of a responsive web application. This project showcases practical use of CRUD functionality and local storage, allowing users to easily manage their movie preferences. With a focus on a clean and user-friendly interface, the app serves as a solid example of modern web development practices.</p>
-  [live demo:](https://crud-movietracker-api-oop-localstorag.netlify.app/)
+  
