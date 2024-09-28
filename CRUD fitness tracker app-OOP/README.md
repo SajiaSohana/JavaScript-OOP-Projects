@@ -27,4 +27,4 @@
  <p>In summary, the Fitness Tracker project exemplifies how OOP principles like inheritance and polymorphism, combined with robust CRUD functionality, local storage, and responsive design, can lead to a more organized, scalable, and user-friendly application, bridging the gap between the front-end interface and back-end data management.</p>
  #JavaScript #WebDevelopment #ObjectOrientedProgramming #FitnessApp #LocalStorage #Coding #Programming #TechForGood #OpenSource #FitnessTracker
 
- [live : ](https://fitness-tracker-oop-js-localstorage.netlify.app/))
+ [live : ](https://fitness-tracker-oop-js-localstorage.netlify.app/)
