@@ -111,16 +111,79 @@ class FitnessTracker {
             activityCard.innerHTML = `
                 <h5>${activity.getDetails()}</h5>
                 <div class="button-container">
-                    <button class="btn btn-edit" onclick="tracker.editActivity(${index})">
-                        <i class="fas fa-pencil-alt"></i> Edit
-                    </button>
-                    <button class="btn btn-delete" onclick="tracker.deleteActivity(${index})">
-                        <i class="fas fa-trash"></i> Delete
-                    </button>
+                    <button class="btn btn-edit" data-index="${index}" data-bs-toggle="modal" data-bs-target="#editActivityModal">Edit</button>
+                    <button class="btn btn-delete" data-index="${index}">Delete</button>
                 </div>
             `;
             activityList.appendChild(activityCard);
         });
+
+        this.addEventListeners();
+    }
+
+    addEventListeners() {
+        const editButtons = document.querySelectorAll('.btn-edit');
+        editButtons.forEach(button => {
+            button.addEventListener('click', (event) => {
+                const index = event.target.dataset.index;
+                this.openEditModal(index);
+            });
+        });
+
+        const deleteButtons = document.querySelectorAll('.btn-delete');
+        deleteButtons.forEach(button => {
+            button.addEventListener('click', (event) => {
+                const index = event.target.dataset.index;
+                this.deleteActivity(index);
+            });
+        });
+    }
+
+    openEditModal(index) {
+        const activity = this.activities[index];
+        document.getElementById('editActivityType').value = activity.type;
+        document.getElementById('editActivityDetails').value = activity.details;
+        
+        const saveButton = document.getElementById('saveActivityChanges');
+        saveButton.onclick = () => {
+            this.editActivity(index);
+        };
+    }
+
+    editActivity(index) {
+        const newType = document.getElementById('editActivityType').value;
+        const newDetails = document.getElementById('editActivityDetails').value;
+
+        let updatedActivity;
+        switch (newType) {
+            case 'Running':
+                updatedActivity = new Running(newDetails);
+                break;
+            case 'Swimming':
+                updatedActivity = new Swimming(newDetails);
+                break;
+            case 'Weightlifting':
+                updatedActivity = new Weightlifting(newDetails);
+                break;
+            case 'Cycling':
+                updatedActivity = new Cycling(newDetails);
+                break;
+            case 'Yoga':
+                updatedActivity = new Yoga(newDetails);
+                break;
+            case 'Dance':
+                updatedActivity = new Dance(newDetails);
+                break;
+            default:
+                return;
+        }
+
+        this.activities[index] = updatedActivity;
+        this.saveActivities();
+        this.displayActivities();
+        
+        const modal = bootstrap.Modal.getInstance(document.getElementById('editActivityModal'));
+        modal.hide();
     }
 
     saveActivities() {
@@ -151,14 +214,6 @@ class FitnessTracker {
         }
 
         return [];
-    }
-
-    editActivity(index) {
-        const activity = this.activities[index];
-        document.getElementById('activityType').value = activity.type;
-        document.getElementById('activityDetails').value = activity.details;
-
-        this.deleteActivity(index);
     }
 }
 
